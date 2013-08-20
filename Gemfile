@@ -17,6 +17,8 @@ gem 'rake'
 
 gem 'shotgun'
 
+gem 'fantasy_football_nerd'
+
 group :test do
   gem 'faker'
   gem 'rspec'
