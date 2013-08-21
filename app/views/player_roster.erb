@@ -1,0 +1,9 @@
+<div id='containter'>
+<h1> <%= @team %> </h1>
+<ol>
+    <% @player.each do |player| %>
+  <li>
+      <%= player.name %> | <%= player.position %>
+  </li>
+  <% end %>
+</ol>
