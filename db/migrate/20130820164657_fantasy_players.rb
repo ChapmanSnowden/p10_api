@@ -4,7 +4,7 @@ class FantasyPlayers < ActiveRecord::Migration
       t.string :name
       t.string :team_id
       t.string :position
-      t.integer :ffn_key
+      t.integer :ffn_id
 
       t.timestamps
     end
