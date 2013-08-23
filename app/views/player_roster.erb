@@ -3,7 +3,7 @@
 <ol>
     <% @player.each do |player| %>
   <li>
-      <%= player.name %> | <%= player.position %>
+      <%= player.name %> | <%= player.position %> | <%=player.injury_overview
   </li>
   <% end %>
 </ol>
